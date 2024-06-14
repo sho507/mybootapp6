@@ -12,7 +12,7 @@
 	</parent>
 
 
-	<groupId>jp.te4a.spring.boot.myapp8</groupId>
+	<groupId>jp.te4a.spring.boot.myapp9</groupId>
 	<artifactId>mybootapp8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mybootapp8</name>
@@ -43,6 +43,23 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- <dependency>
+    <groupId>javax.persistence</groupId>
+    <artifactId>javax.persistence-api</artifactId>
+    <version>2.2</version>
+</dependency> -->
 
 	</dependencies>
 
